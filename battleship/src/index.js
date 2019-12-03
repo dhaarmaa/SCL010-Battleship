@@ -1,12 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Gamers from './feature/nameGamers/Gamers.js'
 
-import nameGamers from './feature/gamers/nameGamers';
-
-const element = <h1>Hola jugador soy Estoiko el vasto jefe de la isla Berk.
-Escoge tu nombre de vikingo para iniciar.</h1>
 
 const container = document.getElementById('app');
 
 
-ReactDOM.render(element, container);
+ReactDOM.render(<Gamers /> , container);
