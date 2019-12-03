@@ -5,8 +5,8 @@ import EstoicoImg from '../../img/Estoico.png';
 
 class Gamers extends React.Component {
 	render(){
-		return <div>
-			<div>
+		return <div className='general'>
+			<div className='imgGamers'>
 				<img src={EstoicoImg} alt='Estoico'/>
 			</div>
 
@@ -14,10 +14,14 @@ class Gamers extends React.Component {
 				<h1>Hola jugador soy Estoiko el vasto jefe de la isla Berk.
 Escoge tu nombre de vikingo para iniciar.</h1>
 			</div>
-
+			<div>
+				
+			<div>
+				<button className='button'>Siguiente</button>
 			<div>
 			</div>
-		</div>;
+		</div>
+	</div>;
 		
 	}
 }
