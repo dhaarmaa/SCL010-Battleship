@@ -1,12 +1,13 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../../feature/nameGamers/Gamers.ccs';
+import EstoicoImg from '../../img/Estoico.png';
 
 class Gamers extends React.Component {
 	render(){
 		return <div>
 			<div>
-				<img src='' alt=''/>
+				<img src={EstoicoImg} alt='Estoico'/>
 			</div>
 
 			<div className='title'>
@@ -14,7 +15,8 @@ class Gamers extends React.Component {
 Escoge tu nombre de vikingo para iniciar.</h1>
 			</div>
 
-			<div></div>
+			<div>
+			</div>
 		</div>;
 		
 	}
