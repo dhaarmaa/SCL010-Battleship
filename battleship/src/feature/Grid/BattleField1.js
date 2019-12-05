@@ -27,7 +27,7 @@ class BattleField1 extends React.Component {
 
 			
 </div>
-
+		<div className='VikingoGamer'>
 			<div className='Vikingo'>
 				<img src={vikingo} alt='Vikingo'/>
 				<img src={vikingo} alt='Vikingo'/>
@@ -37,32 +37,34 @@ class BattleField1 extends React.Component {
 
 			</div>
 
-			<div className='Vikingo'>
+			<div className='Vikingo2'>
 				<img src={vikingo} alt='Vikingo'/>
 				<img src={vikingo} alt='Vikingo'/>
 				<img src={vikingo} alt='Vikingo'/>
 				<img src={vikingo} alt='Vikingo'/>
 
 			</div>
+			</div>
 
-			<div className='Vikingo'>
+		<div className='VikingoGamer2'>
+			<div className='Vikingo3'>
 				<img src={vikingo} alt='Vikingo'/>
 				<img src={vikingo} alt='Vikingo'/>
 				<img src={vikingo} alt='Vikingo'/>
 
 			</div>
 
-			<div className='Vikingo'>
+			<div className='Vikingo4'>
 				<img src={vikingo} alt='Vikingo'/>
 				<img src={vikingo} alt='Vikingo'/>
 
 			</div>
 
-			<div className='Vikingo'>
+			<div className='Vikingo5'>
 				<img src={vikingo} alt='Vikingo'/>
 
 			</div>
-
+		</div>
 
 <div className='Board'>
 <Board />

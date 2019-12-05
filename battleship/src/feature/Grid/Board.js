@@ -8,7 +8,13 @@ class Board extends React.Component {
   render() {
     return (
 
-<Col lg={5} md={6} sm={12} xs={12}>
+<Col lg={5} md={6} sm={12} xs={12} 
+style={{
+          height: "105vh",
+          width: "150vh"
+        }}
+
+>
 <Table responsive bordered >
   <tbody>
     <tr>

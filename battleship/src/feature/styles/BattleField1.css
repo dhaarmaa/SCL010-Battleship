@@ -1,9 +1,9 @@
 
-.bg{
+/*.bg{
    background: url('./../../img/The-Berk-Island.png');
    background-repeat: no-repeat;
   
-}
+}*/
 
 .container{
 	margin:0;
@@ -31,10 +31,38 @@ h1, .title  {
 
 }
 
-.Vikingo {
-	margin-left: 30%;
+.Vikingo  {
+	margin-left: 20%;
 
+}
 
+.Vikingo2  {
+	margin-left: 10%;
+}
+
+.Vikingo3  {
+	margin-left: 24%;
+}
+
+.Vikingo4  {
+	margin-left: 7%;
+}
+
+.Vikingo5  {
+	margin-left: 7%;
+}
+
+.VikingoGamer {
+	margin-top: 2%;
+}
+
+.VikingoGamer, .VikingoGamer2 {
+	display: flex;
+
+}
+
+.VikingoGamer2{
+	margin-top: 3%;
 }
 
 .Board {
