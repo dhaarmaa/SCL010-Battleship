@@ -1,0 +1,46 @@
+.Board {
+ width: 150%;
+ margin-left: 15%;
+ margin-top: 10%;
+
+
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width: 800px) {
+
+  .Board {
+  	width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .Board {
+  	width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  .Board {
+  	width: 100%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+
+  .Board {
+  	width: 100%;
+  }
+}
+
+@media screen and (max-width: 200px) {
+
+  .Board {
+  	width: 50px;
+  	height: 50px;
+  	 margin-left: 15%;
+ 	margin-top: 10%;
+  }
+}
