@@ -1,0 +1,23 @@
+.container{
+	margin:0;
+	width: 100%;
+	height: 100%;
+}
+
+.imgGamers{
+	display: flex;
+}
+
+.general {
+   border: 1px solid black;
+}
+
+h1, .title  {
+	font-family: 'Risque','Bungee Inline', Arial;
+    color: #F9AB82;
+    font-size: 12px;
+}
+
+.button {
+
+}

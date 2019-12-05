@@ -1,6 +1,6 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.css';
-import '../../feature/styles/Gamers.ccs';
+//import 'bootstrap/dist/css/bootstrap.css';
+import './../../feature/styles/Gamers.css';
 import EstoicoImg from '../../img/Estoico.png';
 
 class Gamers extends React.Component {

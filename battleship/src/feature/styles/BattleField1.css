@@ -1,0 +1,9 @@
+.Grid {
+  display: grid;
+  grid-gap: 15px;
+}
+@media (min-width: 576px) {
+  .Grid {
+    grid-auto-flow: column;
+  }
+}
