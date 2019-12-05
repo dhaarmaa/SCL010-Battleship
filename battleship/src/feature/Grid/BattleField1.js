@@ -2,6 +2,7 @@ import React from 'react';
 import { Col } from 'react-bootstrap';
 import '../../feature/styles/BattleField1.css';
 import Hippo from '../../img/hippo.png';
+import vikingo from '../../img/vikingo.png';
 import Board from './Board.js';
 
 //var styles = {
@@ -26,14 +27,51 @@ class BattleField1 extends React.Component {
 
 			
 </div>
+
+			<div className='Vikingo'>
+				<img src={vikingo} alt='Vikingo'/>
+				<img src={vikingo} alt='Vikingo'/>
+				<img src={vikingo} alt='Vikingo'/>
+				<img src={vikingo} alt='Vikingo'/>
+				<img src={vikingo} alt='Vikingo'/>
+
+			</div>
+
+			<div className='Vikingo'>
+				<img src={vikingo} alt='Vikingo'/>
+				<img src={vikingo} alt='Vikingo'/>
+				<img src={vikingo} alt='Vikingo'/>
+				<img src={vikingo} alt='Vikingo'/>
+
+			</div>
+
+			<div className='Vikingo'>
+				<img src={vikingo} alt='Vikingo'/>
+				<img src={vikingo} alt='Vikingo'/>
+				<img src={vikingo} alt='Vikingo'/>
+
+			</div>
+
+			<div className='Vikingo'>
+				<img src={vikingo} alt='Vikingo'/>
+				<img src={vikingo} alt='Vikingo'/>
+
+			</div>
+
+			<div className='Vikingo'>
+				<img src={vikingo} alt='Vikingo'/>
+
+			</div>
+
+
 <div className='Board'>
 <Board />
 </div>
-			<div>
-				<button className='button'>Organización Automática</button>
+			<div className='Button'>
+				<button>Organización Automática</button>
 			</div>
-			<div>
-				<button className='button'>Iniciar Juego</button>
+			<div className='Button'>
+				<button>Iniciar Juego</button>
 			
 		</div>
 	</div>

@@ -1,7 +1,8 @@
 
 .bg{
    background: url('./../../img/The-Berk-Island.png');
-   border: 2px solid black;
+   background-repeat: no-repeat;
+  
 }
 
 .container{
@@ -30,13 +31,26 @@ h1, .title  {
 
 }
 
-.button {
+.Vikingo {
+	margin-left: 30%;
+
 
 }
 
 .Board {
 
 }
+
+.Button{
+	display: inline-flex;
+	margin-left: 20%;
+	background-color: #2D90AD;
+}
+
+
+
+
+
 
 /*RESPONSIVE*/
 
