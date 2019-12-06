@@ -11,7 +11,7 @@ class Gamers extends React.Component {
 			</div>
 
 			<div className='title'>
-				<h1>Hola jugador soy Estoiko el vasto jefe de la isla Berk.
+				<h1 id= "intro">Hola jugador soy Estoiko el vasto jefe de la isla Berk.
 Escoge tu nombre de vikingo para iniciar.</h1>
 			</div>
 
