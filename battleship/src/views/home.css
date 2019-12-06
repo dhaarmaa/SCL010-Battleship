@@ -1,0 +1,21 @@
+.home-content {
+    background: rgba(26, 80, 96, 0.6);
+    width: 411px;
+    height: 731px;
+}
+
+.fonnt {
+    width: 376px;
+    height: 191px;
+    left: -12px;
+    top: 44px;
+
+    font-family: Risque;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 98px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
