@@ -1,6 +1,5 @@
 import React from 'react';
-import { Col } from 'react-bootstrap';
-import '../../feature/styles/BattleField1.css';
+import '../../Components/styles/BattleField1.css';
 import Hippo from '../../img/hippo.png';
 import vikingo from '../../img/vikingo.png';
 import Board from './Board.js';

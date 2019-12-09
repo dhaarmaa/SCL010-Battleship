@@ -1,7 +1,6 @@
 import React from 'react';
 import { Table } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
-import BoardStyle from './../../feature/styles/Board.css';
 
 
 class Board extends React.Component {
